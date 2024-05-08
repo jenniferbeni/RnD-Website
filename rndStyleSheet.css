@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.back-video{
+    position: absolute;
+    right: 10;
+    margin-top: 20px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.img-logo {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#main-logo {
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    list-style: none;
+}
+
+nav {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 180px;
+    margin: 0 20px;
+}
+
+nav li a {
+    color: seashell;
+}
+
+nav li a:hover {
+    color: blue;
+}
+
+nav li a.active {
+    color: blue;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#section-1{
+    margin-top: 548px;
+    background-color:#00008B;
+    height: 55vh;
+}
+
+h1 {
+    margin-left: 150px;
+    color:seashell;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: bold;
+}
+
+#home-class {
+    margin-left: 180px;
+    color:seashell;
+    font-size: 18px;
+    font-family: 'Electrolize', sans-serif;
+    line-height: 1.7;
+    font-weight: bold;
+
+}
+
+#section-1 button {
+    background-color: seashell;
+    border: none;
+    color: blue;
+    padding: 10px 24px;
+    font-size: 18px;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: bold;
+    margin-left: 180px;
+    display: inline-block;
+}
+
+button a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+#section-info {
+    height: 25vh;
+    background-color: black;
+}
+
+h2 {
+    color: seashell;
+    font-size: 15px;
+    font-family: 'Electrolize', sans-serif;
+    margin-left: 150px;
+    line-height: 1.6;
+}
+
+/**********ABOUT SECTION**********/
+
+.back-videoabout{
+    position: absolute;
+    right: 10;
+    margin-top: 15px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.container-about {
+    display: flex;
+    margin-top: 548px;
+    height: 100vh;
+    background-color: #141414;
+}
+
+.about-section {
+    color: #cc88ff;
+    font-weight:normal;
+    font-size: 20px;
+    font-family: 'Electrolize', sans-serif;
+    line-height:1.6;
+    margin-left: 150px;
+    float: left;
+}
+
+.container-image {
+    float: right;
+}
+
+.img-about {
+    margin-top: 60px;
+    float: right;
+    height: auto;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 150px;
+    width: 421px;
+    height: 604px;
+}
+
+.container-about2 {
+    display: flex;
+    height:75vh;
+    background-color: #fff3ef;
+}
+
+.about-section2 {
+    color:black;
+    font-weight:normal;
+    font-size: 20px;
+    font-family: 'Electrolize', sans-serif;
+    line-height:1.6;
+    margin-left: 100px;
+    margin-right: 100px;
+    float: right;
+}
+
+.img-about2 {
+    margin-top: 75px;
+    float: left;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+
+
+/*************CREW SECTION************/
+
+.crew-video {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.container-info {
+    width: 1300px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+
+.img-crew {
+    position: absolute;
+    top: 650px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    z-index: -1;
+}
+
+
+#section-info2 {
+    margin-top: 548px;
+    height: 25vh;
+    background-color: black;
+}
+
+/*************AUDITIONS*******************/
+
+.auditioncontainer {
+    margin: auto;
+    display: flex;
+    width: 35%;
+    z-index: -1;
+}
+
+.auditions-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.crewbutton {
+   margin: auto;
+   display: block;
+   margin-top: 60px;
+   width: 40%;
+}
+
+
+
+/*************ARCHIVE*******************/
+
+.archive-logo {
+    height: 90vh;
+    justify-content: center;
+}
+
+.img-archive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 40%;
+    top: 200px;
+}
+
+
+.divcontainer {
+    margin: auto;
+    display: flex;
+    width: 60%;
+}
+
+.div1 {
+    flex: 1;
+    margin:40px;
+}
+
+h3 {
+    color: seashell;
+    font-size: 35px;
+    font-family: 'Electrolize', sans-serif;
+    margin-left: 330px;
+}
+
+.archive-video {
+    position:fixed;
+    right: 1;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+.class-video-button {
+    margin-left: 350px;
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+}
+
+.divcontainer2 {
+    margin: auto;
+    display: flex;
+    width: 50%;
+}
+
+.div2 {
+    flex: 1;
+    margin:8px;
+}
+
+.posters {
+    width: 200px;
+    height: auto;
+}
+
+/**********CONTACT************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Electrolize",sans-serif;
+}
+
+.contact-container {
+    min-height: 100vh;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrapper{
+    width: 720px;
+    background: #dff2ff;
+    border-radius: 5px;
+}
+
+.wrapper h4 {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.wrapper form {
+    margin: 35px 30px;
+}
+
+form .dbl-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.dbl-field .field {
+    height: 50px;
+    width: 100%;
+}
+
+form .field input,
+form .message textarea {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 18px 0 48px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+}
+
+form .field input::placeholder,
+form .message textarea::placeholder {
+    color: #bfbfbf;
+}
+
+form .field input:focus,
+form .message textarea:focus{
+    border: 2px solid #0D6EFD;
+}
+
+
+form .message {
+    position: relative;
+}
+
+form .message textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 120px;
+    max-height: 300px;
+    padding: 15px 20px 0 48px;
+}
+
+form .button-area{
+    margin: 25px 0;
+
+}
+
+.button-area button{
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    background: blue;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 13px 25px;
+}
+
+.button-area span {
+    color: blue;
+    margin-left: 30px;
+    display: none;
+}
+
+@media(max-width: 600px) {
+    .wrapper h4{
+        text-align: center;
+    }
+
+    form .dbl-field{
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+
+    .dbl-field .field {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    form .message textarea {
+        resize: none;
+    }
+
+    .button-area button{
+        width: 100%;
+    }
+
+    form .button-area{
+        flex-direction: column;
+    }
+
+    .button-area span {
+        text-align: center;
+        margin: 20px 0;
+    }
+}
