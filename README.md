@@ -21,7 +21,7 @@ Frontend:
 Backend: 
   - PHP
 
-🎯 Future Improvements
+## 🎯 Future Improvements
 🔹 Add a CMS for easy content updates.
 🔹 Implement a blog section for dance-related posts.
 🔹 Improve SEO optimization for better search rankings.
