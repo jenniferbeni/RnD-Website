@@ -29,7 +29,7 @@ Backend:
 ## 📩 Contact
 If you have any questions or want to contribute, feel free to reach out! 😊
 
-📍 Website: temporarily down as of Feb 8, 2025 due to new team management
-📍 GitHub: jenniferbeni
+- 📍 Website: temporarily down as of Feb 8, 2025 due to new team management
+- 📍 GitHub: jenniferbeni
 
 
