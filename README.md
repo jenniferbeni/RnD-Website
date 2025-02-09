@@ -22,9 +22,9 @@ Backend:
   - PHP
 
 ## 🎯 Future Improvements
-🔹 Add a CMS for easy content updates.
-🔹 Implement a blog section for dance-related posts.
-🔹 Improve SEO optimization for better search rankings.
+- Add a CMS for easy content updates.
+- Implement a blog section for dance-related posts.
+- Improve SEO optimization for better search rankings.
 
 ## 📩 Contact
 If you have any questions or want to contribute, feel free to reach out! 😊
